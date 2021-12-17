@@ -98,7 +98,7 @@ Instead, **Do** the following:
 #### 6. Give explicit name to your variables and add labels
 #### 7. Whenever you create a variable, that's not obvious what it is, please describe the process.
 
-For example, if you're creating a variabl called `age_std` that is the standardized age, say it in the code and add in the label which is the original variable.
+For example, if you're creating a variabl called `age_std` that is the standardized age, say it in the code and add in the label which is the original variable. (This is a simplified example, sometimes transformations are more complicated)
 
 #### 8. follow the same pattern for your variable names
 
@@ -149,7 +149,7 @@ Especially if it's the first time you use the command in the project. For exampl
 
 ### **Optional**
 
-#### 13. We should use the same format for all graphs, we can work on this
+#### 13. Use the same format for all graphs, we can work on this
 #### 14. For data resulting from do-files what I do is I save them starting with the number of the do
 
 For example, a .dta resulting from `0_clean_tv_data.do` would be named `0_tv_data_cleaned.dta` and the data resulting from `1_merge_tv_family_data.do` would be named `1_tv_family_data_merged.dta`. This is slightly to keep track easily of where each thing comes from, but it's not necessary.
