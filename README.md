@@ -25,6 +25,10 @@ In the `Template_dofile.do` you can notice that there's a complete *NOTES* and *
 Specify all paths as relative in the preamble, every coder would only need to change the main `workindir` for the code to work.
 
 **Do not** write paths to your local machine after the preamble.
+**Avoid** changing the directory, for multiple reasons, establishing a `cd` in your workflow can be misleadig, i.e. your graphs are saved in folder `workindir/Figures` however you were working in another project with `cd` in which there's also a `Figures/` folder. Perhaps your code didn't run as expected, and it failed to define the `cd` and you end up saving your things into another project's folder. In general avoid changing the directory and work with relative paths in locals.
+
+**Avoid** having so many globals. Ideally, you should only work with locals. global macros could be problematic if re-defined by mistake.  
+
 
 #### 5. Make sections and comments and more comments
 
