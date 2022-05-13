@@ -113,21 +113,6 @@ if "`c(username)'"== "your username"  {
 	local workingdir "path to directory"
 }
 
-
-*3. with `c(username)'
-*********************************************************
-
-* User 3
-	
-	foreach dropbox_path in "path user 1" /// User 1
-			"path user 2"  /// User 2
-	{	
-		*Establishing cd 
-		capture local cd "`dropbox_path'"
-		if _rc == 0 macro def pathinit `path'
-	}
-	
-	
 *==============================================================================*
 
 
