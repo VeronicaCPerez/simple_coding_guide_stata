@@ -145,15 +145,35 @@ Especially if it's the first time you use the command in the project. For exampl
 
 ```
 
+#### 10. Save merge results!! 
+
+Everytime you run a merge or another important task that has a result in the `results` window, copy and paste as a comment in your code with the date you ran the code. It will help you keep track if you get different results and need to check why there are changes.
+
+```
+
+// merge on july 7th 2022
+//
+//     Result                      Number of obs
+//     -----------------------------------------
+//     Not matched                           524
+//         from master                       343  (_merge==1)
+//         from using                        181  (_merge==2)
+//
+//     Matched                               148  (_merge==3)
+//     -----------------------------------------
+//
+
+```
+
 ### **General advice**
 
-#### 10. Don't write lines of code after the vertical line in the do-file (unless you have to). Most screens won't be able to fit it.
-#### 11. Temporary files are your friend, if something doesn't need to be seen later it doesn't need to be saved. Use [tempfiles](https://libguides.library.nd.edu/data-analysis-stata/temp-files) in STATA to avoid innecesary files
-#### 12. Save your stuff in final folders that make sense. **Don't** make an **outputs** folder with 100 files and tables and graphs, instead split your data in: *input*, *intermediate* and *final*, and make another folder for outputs.
+#### 11. Don't write lines of code after the vertical line in the do-file (unless you have to). Most screens won't be able to fit it.
+#### 12. Temporary files are your friend, if something doesn't need to be seen later it doesn't need to be saved. Use [tempfiles](https://libguides.library.nd.edu/data-analysis-stata/temp-files) in STATA to avoid innecesary files
+#### 13. Save your stuff in final folders that make sense. **Don't** make an **outputs** folder with 100 files and tables and graphs, instead split your data in: *input*, *intermediate* and *final*, and make another folder for outputs.
 
 ### **Optional**
 
-#### 13. Use the same format for all graphs, we can work on this
-#### 14. For data resulting from do-files what I do is I save them starting with the number of the do
+#### 14. Use the same format for all graphs, we can work on this
+#### 15. For data resulting from do-files what I do is I save them starting with the number of the do
 
 For example, a .dta resulting from `0_clean_tv_data.do` would be named `0_tv_data_cleaned.dta` and the data resulting from `1_merge_tv_family_data.do` would be named `1_tv_family_data_merged.dta`. This is slightly to keep track easily of where each thing comes from, but it's not necessary.
