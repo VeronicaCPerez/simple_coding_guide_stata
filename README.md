@@ -1,6 +1,6 @@
 # Coding guide
 
-While writting your code please keep in mind to keep an organized structure. I'm going to give a list of Do's and Don'ts of a do-file based on Emmanuel Milet's ["The Do’s and Don’ts of a Do-file"](https://www.parisschoolofeconomics.eu/docs/yin-remi/do-file.pdf)
+While writting your code please keep in mind to keep an organized structure. I'm going to give a list of Do's and Don'ts of a do-file based on Emmanuel Milet's ["The Do’s and Don’ts of a Do-file"](https://www.parisschoolofeconomics.eu/docs/yin-remi/do-file.pdf). This is open for everyone's use.
 
 
 ## **DO's and Don'ts**
